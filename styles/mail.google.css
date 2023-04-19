@@ -1,0 +1,22 @@
+*:not(#loading div, #loading div div, span, .T-Jo-auh, .T-I *) {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+input::placeholder,
+span {
+  color: #bbb !important;
+}
+
+p span {
+  background-color: #333 !important;
+}
+
+.la-k .la-m,
+.aU5 {
+  background-color: #333 !important;
+}
+
+#explosion_clipper_div div div {
+  background-color: #333 !important;
+}

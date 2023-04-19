@@ -1,0 +1,14 @@
+/* Base color */
+*:not(.l-u-Ab-zb-Pn-ve, .Z7C2he) {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+/* Resalt placeholder input & bg */
+input::placeholder {
+  color: #bbb !important;
+}
+
+.gb_le * {
+  background-color: #444 !important;
+}

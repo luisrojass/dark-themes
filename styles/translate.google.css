@@ -1,0 +1,9 @@
+*:not(#ow26, #ow26 *, .VfPpkd-Bz112c-LgbsSe *, .B3AePc) {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+/* Right of the nav was white on ::after xd */
+.U0xwnf::after {
+  background: #333 !important;
+}

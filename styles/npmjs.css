@@ -1,0 +1,13 @@
+*:not(svg, strong,
+/* Exclude bg color to main poster */
+  #main > div > article > section.f7728d4c._8c1ee087 > div,
+  #main > div > article > section.f7728d4c._8c1ee087 > div *) {
+
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+svg,
+strong {
+  color: #bbb !important;
+}

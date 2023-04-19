@@ -1,0 +1,34 @@
+.kix-appview-editor,
+#docs-chrome,
+#docs-chrome *:not(.docs-companion-app-switcher-container *) {
+  background: #222 !important;
+  color: #bbb !important;
+}
+
+.navigation-item-content {
+  color: #bbb !important;
+}
+
+#docs-editor *:not(#workspace > svg,
+  #workspace > svg *,
+  .docs-ruler,
+  .docs-ruler *) {
+  background: #222 !important;
+}
+
+/* forms -------------------------------------------------------------------------------- */
+
+/* main background */
+.Uc2NEf * {
+  color: #bbb !important;
+}
+
+.Uc2NEf {
+  background: #222 !important;
+}
+
+/* boxes */
+.geS5n,
+.m7w29c {
+  background-color: #333 !important;
+}

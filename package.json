@@ -1,0 +1,17 @@
+{
+  "name": "dark-themes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrojass/dark-themes.git"
+  },
+  "keywords": [],
+  "author": "Luis Rojas S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisrojass/dark-themes/issues"
+  },
+  "homepage": "https://github.com/luisrojass/dark-themes"
+}

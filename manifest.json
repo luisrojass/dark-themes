@@ -1,0 +1,97 @@
+{
+  "manifest_version": 3,
+  "name": "Dark themes",
+  "description": "Dark themes for many websites. See the repo here: https://github.com/luisrojass/dark-themes",
+  "version": "0.0.1",
+  "icons": { "128": "icon128.png" },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://stackoverflow.com/*",
+        "https://es.stackoverflow.com/*"
+      ],
+      "css": [
+        "./styles/stackoverflow.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://developer.chrome.com/*"
+      ],
+      "css": [
+        "./styles/developer.chrome.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://classroom.google.com/*"
+      ],
+      "css": [
+        "./styles/classroom.google.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css": [
+        "./styles/mail.google.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://drive.google.com/*"
+      ],
+      "css": [
+        "./styles/drive.google.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://translate.google.com/*"
+      ],
+      "css": [
+        "./styles/translate.google.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://docs.google.com/document/*",
+        "https://docs.google.com/presentation/*",
+        "https://docs.google.com/forms/*"
+      ],
+      "css": [
+        "./styles/docs.google.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://sum.unmsm.edu.pe/*"
+      ],
+      "css": [
+        "./styles/sum.unmsm.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://support.cloudinary.com/*",
+        "https://cloudinary.com/*",
+        "https://console.cloudinary.com/*"
+      ],
+      "css": [
+        "./styles/cloudinary.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.npmjs.com/*"
+      ],
+      "css": [
+        "./styles/npmjs.css"
+      ]
+    }
+  ]
+}

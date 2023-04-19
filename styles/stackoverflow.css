@@ -1,0 +1,32 @@
+/* Base color */
+body,
+#content,
+#left-sidebar {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+/* Invert color for this elements */
+code,
+pre,
+.wmd-input {
+  background-color: #bbb !important;
+  color: #333 !important
+}
+
+/* Some links need specific color declaration */
+.question-hyperlink,
+.nav-links--link,
+.s-post-summary--content-excerpt {
+  color: #bbb !important
+}
+
+/* bg & color of widgets */
+.s-topbar,
+.s-topbar *,
+.s-sidebarwidget,
+.s-sidebarwidget *,
+.s-sidebarwidget--header {
+  background-color: #444 !important;
+  color: #bbb !important;
+}

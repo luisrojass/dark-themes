@@ -1,0 +1,59 @@
+/* Login page ------------------------------------------------------------ */
+/* Base color */
+html,
+body,
+.masthead,
+.masthead *,
+.footer-basic,
+.footer-basic *,
+#user-profile,
+#user-profile *:not(.panel-body div *) {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+/* Nav */
+.masthead {
+  padding: 0 !important;
+}
+
+.wave {
+  display: none !important;
+}
+
+/* Container */
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: 100% !important;
+}
+
+/* Footer */
+.footer-basic {
+  padding: 0 !important;
+}
+
+.copyright {
+  padding-bottom: 2rem !important;
+}
+
+/* Logged page ------------------------------------------------------------ */
+
+#content-wrapper,
+#user-profile {
+  background-color: #333 !important;
+}
+
+/* Widget boxes */
+.clearfix,
+.clearfix *:not(h1, h2, h3, div),
+.nav-stacked,
+.profile-box,
+.breadcrumb,
+.panel-info,
+.panel-info *,
+.panel-body div *:not(#user-profile > div > div > div.panel-body > div.col-lg-4.col-md-12.col-xs-12 > div > div.menu),
+#footer-copyright {
+  background-color: #444 !important;
+  color: #bbb !important;
+}
